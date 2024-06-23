@@ -108,10 +108,10 @@ export default function Testing({ details, setDetails }) {
               <video
                 onEnded={() => setGame(true)}
                 autoPlay
-                src="/final_video_2.mp4"
+                src="/final_video.mp4"
               />
             )}
-            {game && <iframe>GAME</iframe>}
+            {game && <h1>ЗДЕСЬ БУДЕТ САМА ИГРА</h1>}
           </div>
         )}
         <button className={styles.skipBtn} onClick={() => setCompleted(true)}>
